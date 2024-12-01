@@ -1,10 +1,15 @@
-- 👋 Hi, I’m @jakubFo
-- 👀 I’m interested in data visualization and exploring AI solutions for daily work.
-- 🌱 I’m currently learning how to better integrate AI tools to solve real-world problems.
-- 💞️ I’m looking to collaborate on projects beyond my daily business activities, especially those involving data analysis, visualization, or open data exploration.
-- ⚡ Fun fact: I’m currently working on analyzing car accident data from open sources to uncover meaningful insights!
+# Maryland-Crash-Data-Resources Package
 
-<!---
-jakubFo/jakubFo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+**Created by Jakub**
+
+This package is designed for exploring and analyzing road accident data from Maryland. It provides a comprehensive workflow to load, preprocess, aggregate, and cluster accident data, along with a predictive model using XGBoost. The main function of the package is `execute_workflow()`, which wraps the entire process of data processing and model execution.
+
+## Features:
+- **Data Loading**: Automatically loads Maryland crash datasets.
+- **Preprocessing**: Handles missing values, data transformations, and feature engineering.
+- **Aggregation**: Aggregates data at various levels for analysis.
+- **Clustering**: Performs clustering on accident data to identify patterns.
+- **XGBoost Model**: Builds a predictive model to assess accident severity and identify key factors influencing accidents.
+- **Visualization**: Provides visualization tools to explore data and detect patterns in road accidents.
+
+In the `dashboard.jpg` file, you can find a Power BI dashboard built using the three main datasets, which visualizes key insights from the analysis.
