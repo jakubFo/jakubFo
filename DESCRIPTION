@@ -1,6 +1,6 @@
 Package: carAccidents
 Title:  Maryland-Crash-Data-Resources Package
-Version: 0.0.0.9000
+Version: 0.1.9
 Authors@R: 
     person("Jakub", "fo", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
